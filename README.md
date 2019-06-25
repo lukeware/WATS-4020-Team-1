@@ -1,4 +1,4 @@
-# WATS2020: Professional Practice
+# WATS4020: Professional Practice
 
 This repository is where you will do your work for WATS2020: Professional Practice. Throughout this course we will break into groups and work through several assignments where you will simulate a web production environment. This will involve coming up with requirements, user stories, estimating sizes, prioritizing work, and then actually completing some work and collaborating together using branches and pull requests.
 
