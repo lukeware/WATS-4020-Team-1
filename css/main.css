@@ -4,9 +4,19 @@
    Author's custom styles
    ========================================================================== */
 
-
-
-
+.search-box{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate (-50%,-50%);
+    background: gray;
+    height:40px;
+    border-radius:40px;
+    padding: 10px;
+    margin:0;
+    padding: 0;
+    background: red;
+}
 
 
 
