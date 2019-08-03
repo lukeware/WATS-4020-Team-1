@@ -23,6 +23,7 @@
     }
   </style>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/search.css">
 
 </head>
 
@@ -159,12 +160,23 @@
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
+            <h4 class="card-header">Search by Poet</h4>
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+              <p class="card-text">Search for poems from our vast list of poets.</p>
             </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+            <div class="dropdown card-footer">
+              <button class="btn btn-primary" onclick="myFunction()" class="dropbtn">Search</button>
+              <div id="myDropdown" class="dropdown-content">
+                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                <a href="#frost">Frost</a>
+                <a href="#dickinson">Dickinson</a>
+                <a href="#whitman">Whitman</a>
+                <a href="#hughes">Hughes</a>
+                <a href="#angelou">Angelou</a>
+                <a href="#plath">Plath</a>
+                <a href="#yeats">Yeats</a>
+                <a href="#poe">Poe</a>
+              </div>
             </div>
           </div>
         </div>
@@ -301,7 +313,7 @@
   </script>
 
   <script src="js/main.js"></script>
-
+  <script src="js/search.js"></script>
 </body>
 
 </html>
